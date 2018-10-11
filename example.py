@@ -7,10 +7,7 @@ c = input('C: ')
 
 D = b ** 2 - 4 * a * c
 
-if D == 0:
-    x = -b / (2.0 * a)
-    print "x = {}".format(x)
-elif D > 0:
+if D >= 0:
     x1 = (-b + sqrt(D)) / (2.0 * a)
     x2 = (-b - sqrt(D)) / (2.0 * a)
     print "x1 = {}".format(x1)
