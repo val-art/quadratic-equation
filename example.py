@@ -1,9 +1,11 @@
 from cmath import sqrt
+import sys
+
 
 # a*x^2 + b*x + c = 0
-a = input('A: ')
-b = input('B: ')
-c = input('C: ')
+a = int(sys.argv[1])
+b = int(sys.argv[2])
+c = int(sys.argv[3])
 
 D = b ** 2 - 4 * a * c
 
